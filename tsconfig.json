@@ -17,11 +17,12 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",
     "paths": {
       "@/public/*": [
         "public/*"
       ] ,
-      "@/app/*": [
+      "@/com/*": [
         "app/components/*"
       ] 
     }
