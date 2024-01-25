@@ -1,9 +1,11 @@
-import Image from "next/image";
+import { Footer } from "./components/layout/Footer";
 import styles from "./page.module.css";
+import { Header } from '@/com/layout/Header'
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Header />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -32,7 +34,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://shekofa-land.ir"
+          href="/blog"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -69,6 +71,7 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <Footer />
     </main>
   );
 }

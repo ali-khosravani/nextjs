@@ -3,7 +3,7 @@ import React from 'react'
 
 const Attendance = () => {
   return (
-    <div className={Style}>Attendance</div>
+    <div className={"bg-light"}>Attendance</div>
   )
 }
 

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div className={Style}>Blog</div>
+    <div className="bg-dark">Blog</div>
   )
 }
 
