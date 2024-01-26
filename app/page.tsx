@@ -3,7 +3,7 @@ import { Footer } from "./components/layout/Footer";
 import styles from "./page.module.css";
 import { Header } from '@/com/layout/Header'
 
-export default function Home() {
+export default function Home(){
   return (
     <main className={styles.main}>
       <Header />

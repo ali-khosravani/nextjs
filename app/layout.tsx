@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "شکوفالند",
-  description: "راهکاری جامع برای مدیریت پارکینگ",
+  description: "راهکاری جامع برای مدیریت پارکینگ",  
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa" dir="rtl">
+    <html lang="fa" dir="rtl">     
       <body>{children}</body>
     </html>
   );

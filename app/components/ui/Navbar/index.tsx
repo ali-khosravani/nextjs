@@ -13,8 +13,6 @@ export const NavbarHeader = () => {
             aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-
-
           <div className="navbar-collapse collapse justify-content-center" id="navbarSupportedContent">
             <ul className="navbar-nav">
               <li className="nav-item p-2"><a href="/" className="text-white"><i className="bi bi-house text-white"></i></a></li>
