@@ -5,8 +5,10 @@ import { Header } from '@/com/layout/Header'
 
 export default function Home(){
   return (
+    <>
+    <Header />    
     <main className={styles.main}>
-      <Header />
+      
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
@@ -71,7 +73,9 @@ export default function Home(){
           </p>
         </a>
       </div>
-      <Footer />
+     
     </main>
+    <Footer />
+    </>
   );
 }
