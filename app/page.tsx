@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Footer } from "./components/layout/Footer";
 import styles from "./page.module.css";
 import { Header } from '@/com/layout/Header'
@@ -21,17 +22,16 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-        <a
-          href="https://shekofa-land.ir"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link href={'/Faq'}  className={styles.card} target="_blank"
+          rel="noopener noreferrer"> 
+        
           <h2>
             Docs <span>-&gt;</span>
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        
+        </Link>
+       
 
         <a
           href="/blog"
