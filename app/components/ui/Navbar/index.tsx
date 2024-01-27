@@ -1,7 +1,7 @@
 
 export const NavbarHeader = () => {
   return (
-    <>
+    
       <nav className="navbar navbar-expand-md fixed-top w-100 d-flex justify-content-between">
         <div className="container-fluid">
           <div className="navbar-brand">
@@ -26,7 +26,7 @@ export const NavbarHeader = () => {
           </div>
         </div>
       </nav>
-    </>
+  
   )
 }
 
