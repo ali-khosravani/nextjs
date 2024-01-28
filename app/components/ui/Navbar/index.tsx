@@ -1,3 +1,4 @@
+import './Styled.css'
 
 export const NavbarHeader = () => {
   return (
@@ -24,10 +25,6 @@ export const NavbarHeader = () => {
             <li className="nav-item p-3"><a href="/About">درباره ما</a></li>
           </ul>
         </div>
-        <form action="">
-          <button className="btn btn-primary p-2 m-2">ثبت نام</button>
-          <button className="btn btn-primary p-2 m-2">ورود</button>
-        </form>
       </div>
     </nav>
   )
