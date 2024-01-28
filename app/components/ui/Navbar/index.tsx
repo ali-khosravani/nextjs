@@ -1,4 +1,3 @@
-import './Styled.css'
 
 export const NavbarHeader = () => {
   return (
