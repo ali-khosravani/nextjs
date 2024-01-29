@@ -1,7 +1,6 @@
 
 export const NavbarHeader = () => {
   return (
-
     <nav className="navbar navbar-expand-md fixed-top w-100 d-flex justify-content-between border-bottom border-3">
       <div className="container-fluid">
         <div className="navbar-brand">

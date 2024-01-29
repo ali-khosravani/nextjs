@@ -34,9 +34,7 @@
 :root {
   --max-width: 1400px;
   --border-radius: 10px;
-  --font-mono: Vazir, Sahel, Tanha, ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  --font-mono: Vazir, Sahel, Tanha;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -124,4 +122,11 @@ a {
   html {
     color-scheme: dark;
   }
+}
+div,h1,h2,h3,h4,h5,h6,p,a{
+  font-family: Tanha;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
 }
