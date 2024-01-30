@@ -53,6 +53,12 @@ const TopFooter = () => {
             </div>
             <div className='m-1 p-2'>
               <h5>عضویت در خبر نامه</h5>
+              <form action="">
+              <input type="text" placeholder='وارد کردن ایمیل' />
+              <input type="submit" value={'ثبت'}/>
+              </form>
+              
+              
             </div>
             <div className='m-1 p-2'>
               <h5>مجوزها</h5>
