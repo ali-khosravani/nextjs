@@ -34,7 +34,7 @@ const Footer1 = () => {
                     <p className="SocialMedia-Button"><a className="btn btn-secondary " href="/">بیشتر &raquo;</a></p>
                 </div>
             </div>
-            <hr />
+       
         </div>
     )
 }
