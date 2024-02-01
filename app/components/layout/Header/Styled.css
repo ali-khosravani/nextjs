@@ -1,0 +1,8 @@
+.contact-box li{
+    border-left: 2px solid #000;
+    padding-left: 10px;
+}
+.contact-box li:last-child{
+    border-left: none;
+    
+}
