@@ -1,20 +1,20 @@
-.social-box{
-    background-color: coral;    
+.social-box {
+    background-color: coral;
 }
-.social-box h4{
+
+.social-box h4 {
     font-family: Tanha;
 }
 
-.social-box-ul li{
-    width: 30px;
+.social-box-ul li {
     height: 30px;
+    width: 30px;
     border-radius: 50%;
-   color: coral;
-    background-color: #fff;    
     text-align: center;
     line-height: 30px;
     font-size: larger;
 }
-.social-box-ul span{
+
+.social-box-ul span {
     font-family: Tanha;
 }

@@ -1,6 +1,12 @@
 import React from 'react'
+import Image from 'next/image';
 import './Styled.css';
-import '../../../../public/fontawesome-free-6.5.1-web/css/all.css'
+import eeta from './../../../../public/icons/SocialMedia/eitaa.svg'
+import instagram from './../../../../public/icons/SocialMedia/instagram.svg'
+import whatsapp from './../../../../public/icons/SocialMedia/whatsapp.svg'
+import telegram from './../../../../public/icons/SocialMedia/telegram.svg'
+import bale from './../../../../public/icons/SocialMedia/bale.svg'
+
 
 const Footer2 = () => {
     return (
@@ -13,12 +19,13 @@ const Footer2 = () => {
                         </div>
                         <div className="col-auto">
                             <div className="social-box-ul">
-                                <span className='d-inline-block mb-0'>مارا در شبکه های اجتماعی دنبال کنید</span>
+                                <span className='d-inline-block mb-0'>مارا در شبکه های اجتماعی دنبال کنید:</span>
                                 <ul className="list-inline d-inline-block mb-0 px-2">
-                                    <li className="list-inline-item"><a href="/"><i className="fa-brands fa-instagram"></i></a></li>
-                                    <li className="list-inline-item"><a href="/"><i className="fa-brands fa-whatsapp"></i></a></li>
-                                    <li className="list-inline-item"><a href="/"><i className="fa-brands fa-telegram"></i></a></li>
-                                    <li className="list-inline-item"><a href="/"><i className="fa-brands fa-github"></i></a></li>
+                                    <li className="list-inline-item"><a href="/"><Image src={eeta} alt='Fullow us' height={30} width={30}/></a></li>
+                                    <li className="list-inline-item"><a href="/"><Image src={instagram} alt='Fullow us' height={30} width={30} /></a></li>
+                                    <li className="list-inline-item"><a href="/"><Image src={whatsapp} alt='Fullow us' height={30} width={30}/></a></li>
+                                    <li className="list-inline-item"><a href="/"><Image src={telegram} alt='Fullow us' height={30} width={30}/></a></li>
+                                    <li className="list-inline-item"><a href="/"><Image src={bale} alt='Fullow us' height={30} width={30}/></a></li>
                                 </ul>
                             </div>
                         </div>
