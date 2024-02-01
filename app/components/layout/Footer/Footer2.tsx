@@ -6,6 +6,8 @@ import instagram from './../../../../public/icons/SocialMedia/instagram.svg'
 import whatsapp from './../../../../public/icons/SocialMedia/whatsapp.svg'
 import telegram from './../../../../public/icons/SocialMedia/telegram.svg'
 import bale from './../../../../public/icons/SocialMedia/bale.svg'
+import rubika from './../../../../public/icons/SocialMedia/rubika.svg'
+import aparat from './../../../../public/icons/SocialMedia/aparat.svg'
 
 
 const Footer2 = () => {
@@ -26,6 +28,8 @@ const Footer2 = () => {
                                     <li className="list-inline-item"><a href="/"><Image src={whatsapp} alt='Fullow us' height={30} width={30}/></a></li>
                                     <li className="list-inline-item"><a href="/"><Image src={telegram} alt='Fullow us' height={30} width={30}/></a></li>
                                     <li className="list-inline-item"><a href="/"><Image src={bale} alt='Fullow us' height={30} width={30}/></a></li>
+                                    <li className="list-inline-item"><a href="/"><Image src={rubika} alt='Fullow us' height={30} width={30}/></a></li>
+                                    <li className="list-inline-item"><a href="/"><Image src={aparat} alt='Fullow us' height={30} width={30}/></a></li>
                                 </ul>
                             </div>
                         </div>

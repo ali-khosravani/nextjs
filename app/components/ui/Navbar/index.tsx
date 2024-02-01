@@ -1,7 +1,7 @@
 
 export const NavbarHeader = () => {
   return (
-    <nav className="navbar navbar-expand-md bg-white fixed-top w-100 d-flex justify-content-between border-bottom border-3">
+    <nav className="navbar navbar-expand-md bg-white w-100 d-flex justify-content-between border-bottom border-3">
       <div className="container-fluid">
         <div className="navbar-brand">
           <a href="/" className="text-black">شکوفالند</a>
