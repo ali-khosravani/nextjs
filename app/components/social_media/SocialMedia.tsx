@@ -11,7 +11,7 @@ import aparat from '@/public/icons/SocialMedia/aparat.svg'
 const SocialMedia = () => {
     return (
         <>
-            <ul className="list-inline d-inline-block mb-0 px-2">
+            <ul className="list-inline d-inline-block mb-0">
                 <li className="list-inline-item"><a href="/"><Image src={eeta} alt='Fullow us' height={20} width={20} /></a></li>
                 <li className="list-inline-item"><a href="/"><Image src={instagram} alt='Fullow us' height={20} width={20} /></a></li>
                 <li className="list-inline-item"><a href="/"><Image src={whatsapp} alt='Fullow us' height={20} width={20} /></a></li>

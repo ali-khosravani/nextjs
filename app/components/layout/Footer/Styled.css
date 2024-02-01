@@ -13,6 +13,7 @@
     text-align: center;
     line-height: 30px;
     font-size: larger;
+    margin-left: 0 !important;
 }
 
 .social-box-ul span {
