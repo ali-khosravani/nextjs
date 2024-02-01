@@ -4,8 +4,8 @@ import './Styled.css'
 
 import SocialMedia from '@/com/social_media/SocialMedia'
 
-import telephone from './../../../../public/icons/public-icon/phone-solid.svg'
-import envelope from './../../../../public/icons/public-icon/envelope-solid.svg'
+import telephone from '@/public/icons/public-icon/phone-solid.svg'
+import envelope from '@/public/icons/public-icon/envelope-solid.svg'
 
 const TopHeader = () => {
   return (

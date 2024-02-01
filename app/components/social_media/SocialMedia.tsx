@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
-import eeta from './../../../public/icons/SocialMedia/eitaa.svg'
-import instagram from './../../../public/icons/SocialMedia/instagram.svg'
-import whatsapp from './../../../public/icons/SocialMedia/whatsapp.svg'
-import telegram from './../../../public/icons/SocialMedia/telegram.svg'
-import bale from './../../../public/icons/SocialMedia/bale.svg'
-import rubika from './../../../public/icons/SocialMedia/rubika.svg'
-import aparat from './../../../public/icons/SocialMedia/aparat.svg'
+import eeta from '@/public/icons/SocialMedia/eitaa.svg'
+import instagram from '@/public/icons/SocialMedia/instagram.svg'
+import whatsapp from '@/public/icons/SocialMedia/whatsapp.svg'
+import telegram from '@/public/icons/SocialMedia/telegram.svg'
+import bale from '@/public/icons/SocialMedia/bale.svg'
+import rubika from '@/public/icons/SocialMedia/rubika.svg'
+import aparat from '@/public/icons/SocialMedia/aparat.svg'
 
 const SocialMedia = () => {
     return (
