@@ -1,6 +1,20 @@
-.footer2Class{
-    border-radius: 10px;
-    background-color: coral;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.social-box{
+    background-color: coral;    
+}
+.social-box h4{
+    font-family: Tanha;
+}
+
+.social-box-ul li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   color: coral;
+    background-color: #fff;    
+    text-align: center;
+    line-height: 30px;
+    font-size: larger;
+}
+.social-box-ul span{
+    font-family: Tanha;
 }
