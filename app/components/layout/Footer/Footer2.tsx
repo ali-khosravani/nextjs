@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
 import './Styled.css';
 import SocialMedia from '@/com/social_media/SocialMedia';
 

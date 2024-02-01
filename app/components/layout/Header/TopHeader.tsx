@@ -11,7 +11,7 @@ const TopHeader = () => {
   return (
     <div className="container-fluid">
       <div className="container py-2">
-        <div className="row justify-content-between">
+        <div className="row justify-content-center justify-content-md-between">
           <div className="col-auto">
             <ul className="list-inline mb-0 contact-box">
               <li className="list-inline-item">
