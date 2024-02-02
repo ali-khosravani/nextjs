@@ -1,6 +1,7 @@
 import { Footer } from "@/com/layout/Footer";
 import styles from "./page.module.css";
 import { Header } from '@/com/layout/Header'
+import Team from "@/com/team/Team";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         </div>
 
       </main>
+      <Team />
       <Footer />
     </>
   );
