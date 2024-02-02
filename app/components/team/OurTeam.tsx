@@ -4,9 +4,11 @@ import Image from 'next/image';
 import Ali from '@/public/images/Team/Ali-khosravani.jpg';
 import SocialMediaTeam from '../social_media/SocialMediaTeam';
 
-const Team = () => {
+const OurTeam = () => {
     return (
         <>
+        <hr />
+        <h3>همکاران ما در شکوفالند</h3>
             <section className="team-section py-5">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -102,4 +104,4 @@ const Team = () => {
     )
 }
 
-export default Team
+export default OurTeam
