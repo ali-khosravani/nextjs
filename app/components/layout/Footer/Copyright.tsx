@@ -4,7 +4,7 @@ import React from 'react'
 const Copyright = () => {
   return (
     <>      
-     <p className='text-white'> Copyright © {(new Date().getFullYear())}</p>
+     <p className='text-white mb-0'> Copyright © {(new Date().getFullYear())}</p>
     </>
   )
 }

@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { Footer } from "./components/layout/Footer";
+import { Footer } from "@/com/layout/Footer";
 import styles from "./page.module.css";
 import { Header } from '@/com/layout/Header'
 
