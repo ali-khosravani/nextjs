@@ -1,10 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
 import './Styled.css'
 
 import SocialMedia from '@/com/social_media/SocialMedia'
-import telephone from '@/public/icons/public-icon/phone-solid.svg'
-import envelope from '@/public/icons/public-icon/envelope-solid.svg'
 
 const TopHeader = () => {
   return (
@@ -13,12 +10,12 @@ const TopHeader = () => {
         <div className="col-lg-6 col-md-8">
           <ul className="list-inline mb-0 contact-box">
             <li className="list-inline-item">
-              <p className='mb-0 d-inline-block'>0912-7622665</p>
-              <Image src={telephone} alt='Fullow us' height={20} width={20} />
+              <p className='mb-0 d-inline-block pe-2'>0912-7622665</p>
+              <i className="bi bi-telephone-fill"></i>
             </li>
             <li className="list-inline-item">
-              <p className='mb-0 d-inline-block'>ali.khosravani.f@gmail.com</p>
-              <Image src={envelope} alt='Fullow us' height={20} width={20} />
+              <p className='mb-0 d-inline-block pe-2'>ali.khosravani.f@gmail.com</p>
+              <i className="bi bi-envelope-fill"></i>
             </li>
           </ul>
         </div>

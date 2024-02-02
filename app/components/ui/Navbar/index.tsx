@@ -1,12 +1,10 @@
-import Image from "next/image"
-import House from '@/public/icons/public-icon/house-solid.svg'
 
 import './Styled.css'
 
 export const NavbarHeader = () => {
   return (
     <nav className="navbar navbar-expand-md bg-light justify-content-between border-bottom border-3">
-      <div className="navbar-brand">
+      <div className="navbar-brand ms-3">
         <a href="/" className="text-black">شکوفالند</a>
       </div>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -15,8 +13,8 @@ export const NavbarHeader = () => {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="navbar-collapse collapse justify-content-around" id="navbarcollapse">
-        <ul className="navbar-nav">
-          <li className="nav-item p-3"><a href="/"><Image src={House} width={25} height={25} alt="Home page" /></a></li>
+        <ul className="navbar-nav home-icon">
+          <li className="nav-item p-3 "><a href="/"><i className="bi bi-house-fill"></i></a></li>
           <li className="nav-item p-3"><a href="/attendance">کنترل تردد</a></li>
           <li className="nav-item p-3"><a href="/hardware">سخت افزار</a></li>
           <li className="nav-item p-3"><a href="/software">نرم افزار</a></li>
