@@ -6,16 +6,8 @@
     font-family: Tanha;
 }
 
-.social-box-ul li {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 30px;
-    font-size: larger;
-    margin-left: 0 !important;
-}
 
 .social-box-ul span {
     font-family: Tanha;
+    margin-left: 10px;
 }

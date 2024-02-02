@@ -23,7 +23,7 @@ const TopHeader = () => {
           </ul>
         </div>
         <div className="col-lg-4 col-md-4 mt-3 mt-md-0">
-          <SocialMedia />
+          <SocialMedia heightValue="20" widthValue="20"/>
         </div>
         <div className="col-lg-2 d-none d-lg-block">
           <button className='btn btn-link btn-sm'>ورود</button>
