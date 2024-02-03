@@ -6,10 +6,9 @@ import SocialMediaTeam from '../social_media/SocialMediaTeam';
 
 const OurTeam = () => {
     return (
-        <>
-        <hr />
-        <h3>همکاران ما در شکوفالند</h3>
-            <section className="team-section py-5">
+        <>        
+        <h3 className='my-5'>همکاران ما در شکوفالند</h3>
+            <section className=" py-5">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-12 col-md-6">
