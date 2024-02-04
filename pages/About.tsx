@@ -1,4 +1,6 @@
+"use client"
 import React from 'react'
+import Head from 'next/head'
 import OurTeam from '@/com/team/OurTeam'
 
 import "bootstrap/dist/css/bootstrap.rtl.css"
@@ -7,10 +9,17 @@ import "./../app/globals.css";
 
 const About = () => {
   return (
+    <>
+    <Head>
+      <title>
+        در باره ما
+      </title>
+    </Head>
     <div>
-      <OurTeam/>
+      <h2>About</h2>
+      <OurTeam />
     </div>
+  </>
   )
 }
-
 export default About

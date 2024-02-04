@@ -2,6 +2,16 @@
   "name": "front",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Ali Khosravani",
+    "email": "Ali.khosravani.f@gmail.com"
+  },
+  "description": "The website for my company",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ali-khosravani/nextjs.git"
+
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -23,5 +33,10 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
     "typescript": "^5"
-  }
+  },
+  "keywords": [
+    "x-ray",
+    "Attendance",
+    "Access Control"
+  ]
 }
