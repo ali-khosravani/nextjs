@@ -3,13 +3,13 @@ import styles from "./page.module.css";
 import { Header } from '@/com/layout/Header'
 import OurTeam from "@/com/team/OurTeam";
 import OurCustomers from "./components/customers/OurCustomers";
-import Slider from "./components/slider/Slider";
+import { Slider } from "./components/slider/Slider";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <Slider/>
+      <Slider />
       <main className={styles.main}>
 
         <div className={styles.description}>
@@ -23,7 +23,7 @@ export default function Home() {
         </div>
 
       </main>
-      <OurCustomers/>
+      <OurCustomers />
       <OurTeam />
       <Footer />
     </>

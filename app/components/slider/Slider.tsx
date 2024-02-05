@@ -6,7 +6,7 @@ import { items } from "@/public/images/Slider/Slider.json";
 import { Carousel } from "react-bootstrap";
 
 
-const Slider = () => {
+export const Slider = () => {
     const { bootstrap } = items;
     const [index, setIndex] = useState(0);
     const handleSelect = (selectedIndex: any, e: any) => {
@@ -15,7 +15,7 @@ const Slider = () => {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect}>
             {bootstrap.map((item) => (
-                <Carousel.Item key={item.id} className={'h-100 w-100'} interval={3000}>
+                <Carousel.Item key={item.id} className={'h-100 w-100'} interval={10000}>
                     <img src={item.imageUrl} alt="New Slide" className='w-100' height={790} />
                     <Carousel.Caption className={'text-center'}>
                         <h3>{item.title}</h3>
@@ -27,7 +27,3 @@ const Slider = () => {
         </Carousel>
     );
 }
-
-
-
-export default Slider

@@ -1,6 +1,6 @@
 .search-box i{
     position: absolute;
-    top: 8px;
+    top: 5px;
     left: 10px;
 }
 i {
@@ -30,7 +30,7 @@ Sidebar navigation
   .menu-nav {
     list-style: none;
     position: absolute;
-    background: #ccc;
+    background: #eee;
     left: 0;
     width: 0;
     overflow: hidden;
@@ -44,6 +44,8 @@ Sidebar navigation
   }
   .menu-nav.show-menu {
     width: 100%;
+    top: 55px;
+    left: 0;
     transform: translateX(0px);
   }
   .menu-nav li a, .menu-nav li span {
