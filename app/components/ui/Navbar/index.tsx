@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react'
 import './Styled.css'
+import '@/styles/bootstrapBreakpoints.css';
 
 export const NavbarHeader = () => {
   
@@ -13,14 +14,13 @@ export const NavbarHeader = () => {
       </div>
       <button className="navbar-toggler toggle" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarcollapse" aria-controls="navbarcollapse"
-        aria-expanded="false" aria-label="Toggle navigation"
+        aria-expanded="true" aria-label="Toggle navigation"
         onClick={() => setNavbarOpen(prev => !prev)}
       >
-        {!navbarOpen ? 'Open' : 'Close'}
-        {/* <span className="navbar-toggler-icon"></span> */}
-      </button>
-      
-      <div className={`${navbarOpen ? 'menu-nav show-menu' : 'navbar-collapse collapse justify-content-around'}`} id="navbarcollapse">
+        {/* {!navbarOpen ? 'Open' : 'Close'} */}
+        <span className="navbar-toggler-icon"></span>
+      </button>      
+      <div className={`justify-content-around ${navbarOpen ? 'menu-nav show-menu ' : 'navbar-collapse collapse'}`} id="navbarcollapse">
         <ul className="navbar-nav home-icon">
           <li className="nav-item p-3 "><a href="/"><i className="bi bi-house-fill"></i></a></li>
           <li className="nav-item p-3"><a href="/attendance">کنترل تردد</a></li>

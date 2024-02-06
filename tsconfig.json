@@ -31,6 +31,9 @@
       ],
       "@/com/*": [
         "app/components/*"
+      ],
+      "@/styles/*": [
+        "app/styles/*"
       ]
     }
   },

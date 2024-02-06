@@ -1,10 +1,10 @@
 .search-box i{
     position: absolute;
-    top: 5px;
-    left: 10px;
+    top: 3px;
+    left: 8px;
 }
 i {
-    color: rgb(18, 93, 234);
+    color: rgba(18, 93, 234,0.75);
 }
 
 /*==========================
@@ -17,7 +17,7 @@ Sidebar navigation
     cursor: pointer;
     background: transparent;;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
   }
   .navbar .toggle {
     position: fixed;
@@ -34,12 +34,12 @@ Sidebar navigation
     left: 0;
     width: 0;
     overflow: hidden;
-    max-width: 200px;
+    max-width: 180px;
     z-index: 9;
-    font-size: 18px;
+    font-size: 16px;
     box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 16%);
     transform: translateX(-100px);
-    transition: transform ease-in-out 0.2s;
+    transition: transform ease-in-out 1s;
     /* transition: width ease 0.2s; */
   }
   .menu-nav.show-menu {
@@ -50,22 +50,6 @@ Sidebar navigation
   }
   .menu-nav li a, .menu-nav li span {
     display: block;
-    padding: 1rem;
-  }
-  .log-in {
-    color: #777;
-    border-top: 1px solid #efecec;
-    margin-top: 15px;
-    font-size: 15px;
-  }
-  /* logout */
-  .logout {
-    position: absolute;
-    right: 30px;
-    top: 40px;
-    display: flex;
-    gap: 2rem;
-    font-size: 20px;
-    color: #005bb3;
-  }
+    padding: 0.5rem;
+  }  
   
