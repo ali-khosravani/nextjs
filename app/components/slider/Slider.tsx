@@ -20,7 +20,7 @@ export const Slider = () => {
                     <Carousel.Caption className={'text-center'}>
                         <h3>{item.title}</h3>
                         <p>{item.body}</p>
-                        <button className="btn btn-danger">Visit Docs</button>
+                        <button className="btn btn-info">بیشتر</button>
                     </Carousel.Caption>
                 </Carousel.Item>
             ))}

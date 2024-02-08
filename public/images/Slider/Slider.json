@@ -5,21 +5,21 @@
           "id": 1,
           "title": "Photography",
           "body": "Bootstrap Carousel Example",
-          "imageUrl": "./images/Slider/uface800.png",
+          "imageUrl": "./images/Slider/1.png",
           "docs": ""
         },
         {
           "id": 2,
           "title": "City Views",
           "body": "Bootstrap Carousel Example",
-          "imageUrl": "./images/Slider/uface800-1.png",
+          "imageUrl": "./images/Slider/2.png",
           "docs": ""
         },
         {
           "id": 3,
           "title": "Wild Life",
           "body": "Bootstrap Carousel Example",
-          "imageUrl": "./images/Slider/uface800-2.png",
+          "imageUrl": "./images/Slider/3.png",
           "docs": ""
         }
       ]

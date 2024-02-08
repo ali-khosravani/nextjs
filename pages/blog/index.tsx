@@ -6,9 +6,12 @@ import 'bootstrap/dist/css/bootstrap.rtl.css'
 
 const Blog = () => {
   return (
-      <div className='d-flex justify-content-center align-items-center vh-100'>
-        <Image  src={ComingSoon} alt=''/>
+    <div className='vh-100 d-flex justify-content-center align-items-center'>
+      <div className=''>
+        <Image src={ComingSoon} alt='' />
+        <p className='text-center'><a href="/">Back to home</a></p>
       </div>
+    </div>
   )
 }
-
+export default Blog
