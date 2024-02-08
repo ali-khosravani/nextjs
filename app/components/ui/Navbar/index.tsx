@@ -12,14 +12,14 @@ export const NavbarHeader = () => {
         <a href="/" className="text-black">شکوفالند</a>
       </div>
       <button className="navbar-toggler toggle" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarcollapse" aria-controls="navbarcollapse"
+        data-bs-target="#navbarToggleCollapse" aria-controls="navbarcollapse"
         aria-expanded="true" aria-label="Toggle navigation"
         onClick={() => setCollapseOpen(prev => !prev)}
       >
         {/* {!navbarOpen ? 'Open' : 'Close'} */}
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className={`${collapsOpen ? 'menu-nav show-menu ' : 'navbar-collapse collapse justify-content-around'}`} id="navbarcollapse">
+      <div className={`${collapsOpen ? 'menu-nav show-menu' : 'navbar-collapse collapse justify-content-around'}`} id="navbarToggleCollapse">
         <ul className="navbar-nav home-icon">
           <li className="nav-item p-3 "><a href="/"><i className="bi bi-house-fill"></i></a></li>
           <li className="nav-item p-3">کنترل تردد</li>

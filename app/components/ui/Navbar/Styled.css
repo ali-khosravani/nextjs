@@ -31,7 +31,7 @@ Sidebar navigation
     list-style: none;
     position: absolute;
     background: #eee;
-    left: 0;
+    right: 0;
     width: 0;
     overflow: hidden;
     max-width: 180px;
@@ -45,7 +45,7 @@ Sidebar navigation
   .menu-nav.show-menu {
     width: 100%;
     top: 55px;
-    left: 0;
+    right: 0;
     transform: translateX(0px);
   }
   .menu-nav li a, .menu-nav li span {
