@@ -22,7 +22,7 @@ export const NavbarHeader = () => {
       <div className={`${collapsOpen ? 'menu-nav show-menu' : 'navbar-collapse collapse justify-content-around'}`} id="navbarToggleCollapse">
         <ul className="navbar-nav home-icon">
           <li className="nav-item p-3 "><a href="/"><i className="bi bi-house-fill"></i></a></li>
-          <li className="nav-item p-3">کنترل تردد</li>
+          <li className="nav-item p-3"><a href="/attendance">کنترل تردد</a></li>
           <li className="nav-item p-3 dropdown"><a href="/hardware">سخت افزار</a></li>
           <li className="nav-item p-3 dropdown"><a href="/software">نرم افزار</a></li>
           <li className="nav-item p-3"><a href="/blog">بلاگ</a></li>

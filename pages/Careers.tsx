@@ -1,9 +1,19 @@
 import React from 'react'
 
-const Careers = () => {
+import Image from 'next/image'
+
+import ComingSoon from '@/public/images/coming-soon.png'
+import 'bootstrap/dist/css/bootstrap.rtl.css'
+
+const Career = () => {
   return (
-    <div>Careers</div>
+    <div className='vh-100 d-flex justify-content-center align-items-center'>
+    <div className=''>
+      <Image src={ComingSoon} alt='' />
+      <p className='text-center'><a href="/">Back to home</a></p>
+    </div>
+  </div>
   )
 }
 
-export default Careers
+export default Career
