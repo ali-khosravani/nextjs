@@ -16,7 +16,7 @@ export const Slider = () => {
         <Carousel activeIndex={index} onSelect={handleSelect}>
             {bootstrap.map((item) => (
                 <Carousel.Item key={item.id} className={'h-100 w-100'} interval={10000}>
-                    <img src={item.imageUrl} alt="New Slide" className='w-100' height={790} />
+                    <img src={item.imageUrl} alt="New Slide" />
                     <Carousel.Caption className={'text-center'}>
                         <h3>{item.title}</h3>
                         <p>{item.body}</p>

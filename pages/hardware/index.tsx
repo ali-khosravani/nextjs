@@ -1,5 +1,3 @@
-
-
 import Image from 'next/image'
 
 import ComingSoon from '@/public/images/coming-soon.png'
@@ -16,4 +14,4 @@ const Hardware = () => {
     </div>
   )
 }
-
+export default Hardware
