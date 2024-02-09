@@ -9,11 +9,12 @@ import { Carousel } from "react-bootstrap";
 export const Slider = () => {
     const { bootstrap } = items;
     const [index, setIndex] = useState(0);
-    const handleSelect = (selectedIndex: any, e: any) => {
+    const handleSelect = (selectedIndex: any) => {
         setIndex(selectedIndex);
     };
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+       <div className='d-none d-lg-block'>
+         <Carousel activeIndex={index} onSelect={handleSelect}>
             {bootstrap.map((item) => (
                 <Carousel.Item key={item.id} className={'h-100 w-100'} interval={10000}>
                     <img src={item.imageUrl} alt="New Slide" />
@@ -25,5 +26,6 @@ export const Slider = () => {
                 </Carousel.Item>
             ))}
         </Carousel>
+       </div>
     );
 }

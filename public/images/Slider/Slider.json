@@ -3,21 +3,21 @@
       "bootstrap": [
         {
           "id": 1,
-          "title": "Photography",
+          "title": "Access Control",
           "body": "Bootstrap Carousel Example",
           "imageUrl": "./images/Slider/1.png",
           "docs": ""
         },
         {
           "id": 2,
-          "title": "City Views",
+          "title": "ZKTeco",
           "body": "Bootstrap Carousel Example",
           "imageUrl": "./images/Slider/2.png",
           "docs": ""
         },
         {
           "id": 3,
-          "title": "Wild Life",
+          "title": "Attendance",
           "body": "Bootstrap Carousel Example",
           "imageUrl": "./images/Slider/3.png",
           "docs": ""

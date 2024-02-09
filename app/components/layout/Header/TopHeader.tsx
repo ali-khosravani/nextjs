@@ -23,8 +23,8 @@ const TopHeader = () => {
           <SocialMedia heightValue="20" widthValue="20"/>
         </div>
         <div className="col-lg-2 d-none d-lg-block">
-          <button className='btn btn-link btn-sm'>ورود</button>
-          <button className='btn btn-link btn-sm'>ثبت نام</button>
+          <button className='btn btn-sm'>ورود</button>
+          <button className='btn btn-sm'>ثبت نام</button>
         </div>
       </div>
     </div>
