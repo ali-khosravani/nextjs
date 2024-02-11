@@ -20,9 +20,8 @@ Sidebar navigation
     font-size: 18px;
   }
   .navbar .toggle {
-    position: fixed;
-    left: 20px;
-    top: 80px;
+    position: relative;
+    left: 20px;    
     cursor: pointer;
     background: transparent;;
     border: none;
