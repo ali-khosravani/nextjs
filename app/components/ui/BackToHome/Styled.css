@@ -1,0 +1,13 @@
+p{
+    text-align: center;
+}
+a {
+    font-size: 2em;
+    text-decoration: none !important;
+    color: inherit !important;   
+}
+
+a:hover {
+    color: inherit;
+    opacity: 0.5;
+}
