@@ -1,20 +1,10 @@
+import CommingSoonImage from '@/com/ui/CommingSoon/CommingSoon'
 import React from 'react'
-
-import Image from 'next/image'
-
-import ComingSoon from '@/public/images/coming-soon.png'
-import 'bootstrap/dist/css/bootstrap.rtl.css'
-import LinkBackToHome from '@/com/ui/BackToHome/Link'
-
-const About = () => {
+export default function About() {
   return (
-    <div className='vh-100 d-flex justify-content-center align-items-center'>
-    <div className=''>
-      <Image src={ComingSoon} alt='' />
-      <LinkBackToHome/>
-    </div>
-  </div>
+    <>
+      <CommingSoonImage />
+    </>
   )
 }
 
-export default About
