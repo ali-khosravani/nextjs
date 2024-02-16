@@ -2,6 +2,7 @@ import React from 'react'
 import './Styled.css'
 
 import SocialMedia from '@/com/social_media/SocialMedia'
+import Link from 'next/link'
 
 const TopHeader = () => {
   return (
@@ -23,8 +24,8 @@ const TopHeader = () => {
           <SocialMedia heightValue="20" widthValue="20"/>
         </div>
         <div className="col-lg-2 d-none d-lg-block">
-          <a href="/users/Login"><button className='btn btn-sm text-black'>ورود</button></a>
-          <a href="/users/Register"><button className='btn btn-sm text-black'>ثبت نام</button></a>
+          <Link href="/users/Login"><button className='btn btn-sm text-black'>ورود</button></Link>
+          <Link href="/users/Register"><button className='btn btn-sm text-black'>ثبت نام</button></Link>
         </div>
       </div>
     </div>
