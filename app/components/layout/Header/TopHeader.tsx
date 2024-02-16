@@ -23,13 +23,11 @@ const TopHeader = () => {
           <SocialMedia heightValue="20" widthValue="20"/>
         </div>
         <div className="col-lg-2 d-none d-lg-block">
-          <button className='btn btn-sm'>ورود</button>
-          <button className='btn btn-sm'>ثبت نام</button>
+          <a href="/users/Login"><button className='btn btn-sm text-black'>ورود</button></a>
+          <a href="/users/Register"><button className='btn btn-sm text-black'>ثبت نام</button></a>
         </div>
       </div>
     </div>
-
   )
 }
-
 export default TopHeader
