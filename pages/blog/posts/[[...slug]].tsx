@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image'
 import ComingSoon from '@/public/images/coming-soon.png'
@@ -9,7 +10,10 @@ function Post() {
   const router = useRouter()
   const { slug } = router.query
   return (
-    <div>
+    <>
+      <Head>
+        <title>وبلاگ</title>
+      </Head>
       <div className='vh-100 d-flex justify-content-center align-items-center'>
         <div className=''>
           <Image src={ComingSoon} alt='' priority />
@@ -17,7 +21,7 @@ function Post() {
           <LinkBackToHome />
         </div>
       </div>
-    </div>
+    </>
   )
 }
 export default Post
