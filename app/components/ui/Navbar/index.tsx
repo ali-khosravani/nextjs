@@ -3,14 +3,16 @@ import { useState } from 'react'
 import './Styled.css'
 import '@/styles/bootstrapBreakpoints.css';
 import Link from 'next/link';
+import Logo from '@/public/Shekofa-land-logo.svg'
+import Image from 'next/image';
 
 export const NavbarHeader = () => {
   const [collapsOpen, setCollapseOpen] = useState(false)
   return (
 
     <nav className="navbar navbar-expand-md bg-light justify-content-between border-bottom border-3">
-      <div className="navbar-brand ms-3">
-        <a href="/" className="text-black">شکوفالند</a>
+      <div className="navbar-brand m-0">
+        <a href="/" className="text-black"><Image src={Logo} height={50} width={100} alt='Logo'  priority /></a>
       </div>
       <button className="navbar-toggler toggle" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarToggleCollapse" aria-controls="navbarcollapse"
