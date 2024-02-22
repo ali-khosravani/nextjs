@@ -25,7 +25,7 @@ const TopFooter = () => {
             <ul>
               <li className="pt-2"><Link href="/support">خدمات پشتیبانی</Link></li>
               <li className="pt-2"><Link href="/learn">آموزش</Link></li>
-              <li className="pt-2"><Link href="/">انتقادات و پیشنهادات</Link></li>
+              <li className="pt-2"><Link href="/">قرارداد</Link></li>
               <li className="pt-2"><Link href="/guarantee">خدمات ضمانت کالا</Link></li>
               <li className="pt-2"><a href="/"> </a></li>
             </ul>
