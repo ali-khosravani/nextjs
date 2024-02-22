@@ -11,3 +11,9 @@
     font-family: Tanha;
     margin-left: 10px;
 }
+
+@media (max-width: 462px) {  
+    .h4-font-size{
+        font-size: 1em;
+    }
+}

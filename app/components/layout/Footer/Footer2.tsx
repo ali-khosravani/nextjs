@@ -10,7 +10,7 @@ const Footer2 = () => {
                 <div className="container py-3 social-box rounded-5">
                     <div className="row justify-content-center justify-content-xl-around">
                         <div className="col-auto">
-                            <h4 className='mb-0'>ارائه جدیدترین دستگاه های فلزیاب و X-Ray</h4>
+                            <h4 className='mb-0 h4-font-size'>ارائه جدیدترین دستگاه های فلزیاب و X-Ray</h4>
                         </div>
                         <div className="col-auto mt-3 mt-xl-0">
                             <div className="social-box-ul">
