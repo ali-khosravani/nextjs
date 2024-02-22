@@ -4,6 +4,7 @@ export default function Login() {
   return (
     <>
       <Head>
+        <link rel="manifest" href="/manifest.json" />
         <title>
           صفحه ورود
         </title>
