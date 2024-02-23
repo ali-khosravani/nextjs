@@ -14,13 +14,13 @@ export const Slider = () => {
     };
     return (
         <div className='d-none d-lg-block'>
-            <Carousel activeIndex={index} onSelect={handleSelect}>
+            <Carousel activeIndex={index} onSelect={handleSelect} variant='dark'>
                 {Slide.items.map((item) => (
                     <Carousel.Item key={item.id} className={'h-100 w-100'} interval={10000}>
-                        <Image src={item.imageUrl} alt="New Slide" className='img-fluid' />
-                        <Carousel.Caption className={'text-center'}>
-                            <h3>{item.title}</h3>
-                            <p>{item.body}</p>
+                        <Image src={item.imageUrl} alt="New Slide" className='img-fluid' height={850} width={1200}/>
+                        <Carousel.Caption className={'text-center text-black'}>
+                            <h3 className='text-black'>{item.title}</h3>
+                            <p className='text-black'>{item.body}</p>
                             <MoreButton/>
                         </Carousel.Caption>
                     </Carousel.Item>
