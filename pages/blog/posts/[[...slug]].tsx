@@ -2,7 +2,6 @@ import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image'
 import ComingSoon from '@/public/images/coming-soon.png'
-import 'bootstrap/dist/css/bootstrap.rtl.css'
 import { useRouter } from "next/router";
 import LinkBackToHome from '@/com/ui/BackToHome/Link';
 
