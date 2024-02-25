@@ -3,7 +3,7 @@ import React from 'react'
 const Software = () => {
   return (
     <>
-    <div className="container my-5">
+    <div className="container vh-100">
         <div className="row">
             <div className="col">
                 <h1>
