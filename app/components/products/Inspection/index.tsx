@@ -7,15 +7,26 @@ const Inspection = () => {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col">
-            <div className="d-flex justify-content-center align-items-center Inspection-box">
+          <div className="col-12 col-lg-6">
+            <div className="container">
               <h1>
                 انواع بازرسی
               </h1>
             </div>
-            <Order/>
+            <div>
+              <ul>
+                <li>انواع بازرسی</li>
+                <li>انواع بازرسی</li>
+                <li>انواع بازرسی</li>
+                <li>انواع بازرسی</li>
+                <li>انواع بازرسی</li>
+                <li>انواع بازرسی</li>
+              </ul>
+            </div>
+           
           </div>
         </div>
+        <Order/>
       </div>
     </>
   )

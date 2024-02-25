@@ -31,7 +31,7 @@ const Network = () => {
           <div className="col-lg-6 col-12">
             <div className="container">
               <div className='d-flex justify-content-center align-items-center Network-box'>
-                <Image src={NetworkImage} alt='Network' priority />
+                 <Image src={NetworkImage} alt='Network' priority style={{width:'600px',height:'500px'}}/>
               </div>
             </div>
           </div>

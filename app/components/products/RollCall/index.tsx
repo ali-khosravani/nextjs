@@ -8,14 +8,25 @@ const RollCall = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col">
-            <div className="d-flex justify-content-center align-items-center RollCall-box">
+            <div className="container">
               <h1>
-                حضور و غیاب
+              حضور و غیاب
               </h1>
             </div>
-            <Order/>
+            <div>
+              <ul>
+                <li> حضور و غیاب</li>
+                <li> حضور و غیاب</li>
+                <li> حضور و غیاب</li>
+                <li> حضور و غیاب</li>
+                <li> حضور و غیاب</li>
+                <li> حضور و غیاب</li>
+              </ul>
+            </div>
+            
           </div>
         </div>
+        <Order/>
       </div>
     </>
   )

@@ -8,10 +8,20 @@ const Hardware = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col">
-            <div className="d-flex justify-content-center align-items-center Hardware-box">
+            <div className="container">
               <h1>
                 راکت فلزیاب
               </h1>
+            </div>
+            <div>
+              <ul>
+                <li>راکت فلزیاب</li>
+                <li>راکت فلزیاب</li>
+                <li>راکت فلزیاب</li>
+                <li>راکت فلزیاب</li>
+                <li>راکت فلزیاب</li>
+                <li>راکت فلزیاب</li>
+              </ul>
             </div>
             <Order/>
           </div>

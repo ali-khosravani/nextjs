@@ -20,10 +20,17 @@ export default function Home() {
     <>
       <Header />
       <Slider />
-      <Category />
-      <Camera />
+      <AccessControl />
+      <RollCall />
+      <Gate />
       <Inspection />
+      <Category />
       <Software />
+      <Hardware />
+      <Network />
+      <Camera />
+      <Store />
+      <OurCustomers />
 
       {/* <main className={styles.main}>
         <div className={styles.description}>
@@ -34,16 +41,6 @@ export default function Home() {
         </div>
       </main> */}
 
-
-      <Store />
-      <RollCall />
-      <Hardware />
-      <Network />
-
-      <AccessControl />
-      <Gate />
-
-      <OurCustomers />
       <Footer />
     </>
   );

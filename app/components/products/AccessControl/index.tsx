@@ -5,17 +5,36 @@ import Order from '../Order'
 const AccessControl = () => {
     return (
         <>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
-                    <div className="col">
-                        <div className='d-flex justify-content-center align-items-center Access-box'>
-                            <h1>
-                                کنترل تردد
-                            </h1>
+                    <div className="col-lg-6 col-12">
+                        <div className='container'>
+                            <div className='my-3'>
+                                <h1>
+                                    کنترل تردد
+                                </h1>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>کنترل تردد</li>
+                                    <li>کنترل تردد</li>
+                                    <li>کنترل تردد</li>
+                                    <li>کنترل تردد</li>
+                                    <li>کنترل تردد</li>
+                                    <li>کنترل تردد</li>
+                                </ul>
+                            </div>
                         </div>
-                        <Order/>
+
+                    </div>
+                    <div className="col-lg-6 col-12">
+                        <div className='container'>
+
+                        </div>
+
                     </div>
                 </div>
+                <Order />
             </div>
         </>
     )

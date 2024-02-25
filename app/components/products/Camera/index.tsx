@@ -6,15 +6,39 @@ const Camera = () => {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col">
-          <div className='d-flex justify-content-center align-items-center Camera-box'>
+        <div className="col-lg-6 col-12">
+          <div className='container'>
+            <div className="my-3">
+            <h1>
+              انواع دوربین مدار بسته
+            </h1>
+            </div>
+            <div>
+              <ul>
+                <li>دوربین پلاک خوان</li>
+                <li>دوربین پلاک خوان</li>
+                <li>دوربین پلاک خوان</li>
+                <li>دوربین پلاک خوان</li>
+                <li>دوربین پلاک خوان</li>
+                <li>دوربین پلاک خوان</li>
+                <li>دوربین پلاک خوان</li>
+                <li>دوربین پلاک خوان</li>
+                <li>دوربین پلاک خوان</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div className="col-lg-6 col-12">
+          <div className='container'>
             <h1>
               انواع دوربین مدار بسته
             </h1>
           </div>
-          <Order/>
+
         </div>
       </div>
+      <Order />
     </div>
   )
 }
