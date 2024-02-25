@@ -23,15 +23,17 @@ export default function Home() {
       <Category />    
       <Camera/>
       <Inspection />
+      <Software/>
+
       <main className={styles.main}>
         <div className={styles.description}>
         </div>
-        <div className={styles.center}>
-        <Software/>
+        <div className={styles.center}>        
         </div>
         <div className={styles.grid}>
         </div>
       </main>
+      
       <Order/>
       <Store/>
       <RollCall />         

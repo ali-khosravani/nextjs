@@ -1,17 +1,19 @@
 import React from 'react'
-
+import './styled.css'
 const Gate = () => {
   return (
     <>
-    <div className="container vh-100">
+      <div className="container-fluid">
         <div className="row">
-            <div className="col">
-                <h1>
-                    انواع گیت های کنترل تردد
-                </h1>
+          <div className="col">
+            <div className='d-flex justify-content-center align-items-center Gate-box'>
+              <h1>
+                انواع گیت های کنترل تردد
+              </h1>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
     </>
   )
 }
