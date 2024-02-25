@@ -4,11 +4,11 @@ import './styled.css'
 const Order = () => {
   return (
     <>
-      <div className='my-5 container-fluid'>
-        <div className='container d-flex justify-content-center rounded-3 align-items-center'  style={{ backgroundColor: '#33f', height: '100px' }}>          
-            <h3 className='m-0'>
-              جهت راهنمایی و دریافت مشاوره و ثبت سفارش لطفا با شماره 0912762266  تماس حاصل نمائید
-            </h3>
+      <div className='my-2 container'>
+        <div className='container d-flex justify-content-center rounded-2 align-items-center Order-box'>          
+            <h6 className='m-0'>
+              جهت دریافت مشاوره و ثبت سفارش لطفا با شماره 0912762266 تماس حاصل نمائید
+            </h6>
           </div>
         </div>      
     </>

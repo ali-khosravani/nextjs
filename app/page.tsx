@@ -11,7 +11,7 @@ import RollCall from '@/com/products/RollCall'
 import Hardware from "@/com/products/Hardware";
 import Network from "./components/products/Network";
 import Software from "./components/products/Software";
-import Order from '@/com/products/Order'
+
 import Camera from "./components/products/Camera";
 import Store from "./components/products/store";
 
@@ -20,10 +20,10 @@ export default function Home() {
     <>
       <Header />
       <Slider />
-      <Category />    
-      <Camera/>
+      <Category />
+      <Camera />
       <Inspection />
-      <Software/>
+      <Software />
 
       {/* <main className={styles.main}>
         <div className={styles.description}>
@@ -33,16 +33,16 @@ export default function Home() {
         <div className={styles.grid}>
         </div>
       </main> */}
-      
-      <Order/>
-      <Store/>
-      <RollCall />         
-      <Hardware/>
-      <Network/>
-      <Order/>
+
+
+      <Store />
+      <RollCall />
+      <Hardware />
+      <Network />
+
       <AccessControl />
       <Gate />
-      <Order/>
+
       <OurCustomers />
       <Footer />
     </>

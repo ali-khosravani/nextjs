@@ -1,0 +1,29 @@
+.Order-box {
+    height: 30px;
+    background-color: #4169E1;
+    animation-name: ChangeColor;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ChangeColor {
+    0% {
+        background-color: #4169E1;
+    }
+
+    25% {
+        background-color: #96DED1;
+    }
+
+    50% {
+        background-color: #B6D0E2;
+    }
+
+    75% {
+        background-color: #96DED1;
+    }
+
+    100% {
+        background-color: #4169E1;
+    }
+}

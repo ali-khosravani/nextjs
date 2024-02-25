@@ -1,5 +1,6 @@
 import React from 'react'
 import './styled.css'
+import Order from '../Order'
 
 const RollCall = () => {
   return (
@@ -12,6 +13,7 @@ const RollCall = () => {
                 حضور و غیاب
               </h1>
             </div>
+            <Order/>
           </div>
         </div>
       </div>

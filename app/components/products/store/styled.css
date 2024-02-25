@@ -1,17 +1,4 @@
 .Store-box{
-    height: 600px;
-    background-color: lightblue;
-    margin: 10px;
-    animation-name: ChangeColor;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes ChangeColor {
-    from{
-        background-color:lightblue;
-    }
-    to{
-        background-color: blue;
-    }
+    height: 600px;    
+    margin: 10px;   
 }

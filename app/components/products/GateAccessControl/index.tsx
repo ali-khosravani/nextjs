@@ -1,5 +1,6 @@
 import React from 'react'
 import './styled.css'
+import Order from '../Order'
 const Gate = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const Gate = () => {
                 انواع گیت های کنترل تردد
               </h1>
             </div>
+            <Order/>
           </div>
         </div>
       </div>

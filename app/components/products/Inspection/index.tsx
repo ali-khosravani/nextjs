@@ -1,5 +1,6 @@
 import React from 'react'
 import './styled.css'
+import Order from '../Order'
 
 const Inspection = () => {
   return (
@@ -12,6 +13,7 @@ const Inspection = () => {
                 انواع بازرسی
               </h1>
             </div>
+            <Order/>
           </div>
         </div>
       </div>

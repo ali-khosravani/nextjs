@@ -1,7 +1,6 @@
 "use client"
 import { useState } from 'react'
 import './Styled.css'
-import '@/styles/bootstrapBreakpoints.css';
 import Link from 'next/link';
 import Logo from '@/public/Shekofa-land-logo.svg'
 import Image from 'next/image';

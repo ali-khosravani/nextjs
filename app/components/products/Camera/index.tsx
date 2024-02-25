@@ -1,5 +1,6 @@
 import React from 'react'
 import './styled.css'
+import Order from '../Order'
 
 const Camera = () => {
   return (
@@ -11,6 +12,7 @@ const Camera = () => {
               انواع دوربین مدار بسته
             </h1>
           </div>
+          <Order/>
         </div>
       </div>
     </div>
