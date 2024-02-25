@@ -25,14 +25,14 @@ export default function Home() {
       <Inspection />
       <Software/>
 
-      <main className={styles.main}>
+      {/* <main className={styles.main}>
         <div className={styles.description}>
         </div>
         <div className={styles.center}>        
         </div>
         <div className={styles.grid}>
         </div>
-      </main>
+      </main> */}
       
       <Order/>
       <Store/>
