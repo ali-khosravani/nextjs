@@ -10,18 +10,17 @@ const AccessControl = () => {
                     <div className="col-lg-6 col-12">
                         <div className='container'>
                             <div className='my-3'>
-                                <h1>
-                                    کنترل تردد
-                                </h1>
+                                <h4 className='text-start fw-bold'>
+                                    بهترین راهکار برای مدیریت کنترل تردد در سازمان و اداره شما
+                                </h4>
                             </div>
-                            <div>
-                                <ul>
-                                    <li>کنترل تردد</li>
-                                    <li>کنترل تردد</li>
-                                    <li>کنترل تردد</li>
-                                    <li>کنترل تردد</li>
-                                    <li>کنترل تردد</li>
-                                    <li>کنترل تردد</li>
+                            <div className='ul-box py-3'>
+                                <ul className='text-start'>
+                                    <li className='li-Network'><i className="bi bi-check-lg"></i>نرم افزار کنترل تردد</li>
+                                    <li className='li-Network'><i className="bi bi-check-lg"></i>دستگاه کنترل تردد</li>
+                                    <li className='li-Network'><i className="bi bi-check-lg"></i>انواع برد کنترل تردد</li>
+                                    <li className='li-Network'><i className="bi bi-check-lg"></i>لوازم جانبی کنترل تردد</li>
+                                    <li className='li-Network'><i className="bi bi-check-lg"></i>انواع reader</li>                                    
                                 </ul>
                             </div>
                         </div>
@@ -31,7 +30,6 @@ const AccessControl = () => {
                         <div className='container'>
 
                         </div>
-
                     </div>
                 </div>
                 <Order />
