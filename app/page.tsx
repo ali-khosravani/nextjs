@@ -25,11 +25,11 @@ export default function Home() {
       <Gate />
       <Inspection />
       <Category />
-      <Software />
-      <Hardware />
+      {/* <Software /> */}
+      {/* <Hardware /> */}
       <Network />
       <Camera />
-      <Store />
+      {/* <Store /> */}
       <OurCustomers />
 
       {/* <main className={styles.main}>
