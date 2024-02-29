@@ -13,9 +13,7 @@ const OurCustomers = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-auto">
-
                         </div>
-
                     </div>
                 </div>
             </div>
