@@ -1,10 +1,10 @@
 import React from 'react'
 import MoreButton from '@/com/ui/Buttons/MoreButton'
 import Image from 'next/image'
-import Parking from '@/public/icons/Footer1/Parking.png'
-import Attendance from '@/public/icons/Footer1/Attendance.png'
-import SelfService from '@/public/icons/Footer1/SelfService.png'
-import Visitor from '@/public/icons/Footer1/Visitor.png'
+import Parking from '@/public/images/Footer1/Parking.png'
+import Attendance from '@/public/images/Footer1/Attendance.png'
+import SelfService from '@/public/images/Footer1/SelfService.png'
+import Visitor from '@/public/images/Footer1/Visitor.png'
 
 
 const Footer1 = () => {

@@ -16,7 +16,7 @@ const Camera = () => {
             </div>
             <div >
               <ul className='text-start'>
-                <li className='li-Network'><i className="bi bi-check-lg"></i> انواع دوربین پلاک خوان</li>
+                <li className='li-Network'><i className="bi bi-check-lg"></i>انواع دوربین پلاک خوان</li>
                 <li className='li-Network'><i className="bi bi-check-lg"></i>دوربین های ضدآب</li>
                 <li className='li-Network'><i className="bi bi-check-lg"></i>دوربین تحت شبکه</li>
                 <li className='li-Network'><i className="bi bi-check-lg"></i>دوربین دید در شب</li>

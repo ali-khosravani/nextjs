@@ -17,13 +17,13 @@ const RollCall = () => {
             <div className='ul-box py-3'>
               <h5 className='text-start fw-bold py-3'>برخی از قابلیت ها و امکانات نرم افزار</h5>
               <ul className='text-start'>
-                <li className='li-Network'><i className="bi bi-check-lg"></i> اضافه کاری اول و آخر وقات امکان جدا سازی روز کاری و غیر کاری زمان قابل اغماض و شب کاری</li>
+                <li className='li-Network'><i className="bi bi-check-lg"></i> اضافه کاری اول و آخر وقت امکان جدا سازی روز کاری و غیر کاری زمان قابل اغماض و شب کاری</li>
                 <li className='li-Network'><i className="bi bi-check-lg"></i>امکان تعریف گروههای کاری با دوره تناوب تا ۳۱ روز با ترکیب شیفتهای مختلف</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>  تعیین حداقل و حد اکثر اضافه کار اول وقت آخر وقت</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>اجازه ویرایش در کلیه پارامترهای ورود ورود و خروج پرستل مانند ساعات کارکرد اضافه کاری تعطیل کاری</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>تعریف اجازه اضافه کار اول وقت و آخر وقت به صورت جداگانه برای هر پرستل </li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>تعریف مرخصیهای مختلف روزانه استفاده از آنها به همراه نمایش تعداد روز رفته و مانده و سقف مرخصی .</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>نترل و اصلاح ورود و خروج های ناقص محاسبه کار کرد مدت حضور اضافه کاری مدت تاخیر کسر کار و …..</li>
+                <li className='li-Network'><i className="bi bi-check-lg"></i>تعیین حداقل و حد اکثر اضافه کار اول وقت آخر وقت</li>
+                <li className='li-Network'><i className="bi bi-check-lg"></i>اجازه ویرایش در کلیه پارامترهای ورود ورود و خروج پرسنل مانند ساعات کارکرد اضافه کاری تعطیل کاری</li>
+                <li className='li-Network'><i className="bi bi-check-lg"></i>تعریف اجازه اضافه کار اول وقت و آخر وقت به صورت جداگانه برای هر پرسنل </li>
+                <li className='li-Network'><i className="bi bi-check-lg"></i>تعریف مرخصی های مختلف روزانه استفاده از آنها به همراه نمایش تعداد روز رفته و مانده و سقف مرخصی .</li>
+                <li className='li-Network'><i className="bi bi-check-lg"></i>کنترل و اصلاح ورود و خروج های ناقص محاسبه کار کرد مدت حضور اضافه کاری مدت تاخیر کسر کار و …..</li>
                 <li className='li-Network'><i className="bi bi-check-lg"></i>محاسبه مدت حضور فیزیکی و اضافه کار به تفکیک قسمت اداری جهت پرداخت کارانه و افزایش تولید. .</li>
                 <li className='li-Network'><i className="bi bi-check-lg"></i> تعریف بدون محدودیت تبدیل در پارامترهای ورود و خروج پرسنل بر روی هر شیفت . .</li>
                 <li className='li-Network'><i className="bi bi-check-lg"></i>ارسال پیام برای دستگاه جهت نمایش هنگام کارت زدن پرسنل (برای هزار نفر)</li>
