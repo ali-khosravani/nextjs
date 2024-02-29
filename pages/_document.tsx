@@ -9,7 +9,7 @@ export default class MyDocument extends Component {
     }
     render() {
         return (
-            <Html>
+            <Html lang="fa" dir="rtl">
                 <Head>
                     
                 </Head>
