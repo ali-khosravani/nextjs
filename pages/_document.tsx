@@ -3,19 +3,21 @@ import React, { Component } from 'react'
 
 
 export default class MyDocument extends Component {
+    
     static async getInitialProps(ctx: any) {
         const initialProps = await Document.getInitialProps(ctx)
         return { ...initialProps }
-    }
+    }   
     render() {
         return (
             <Html lang="fa" dir="rtl">
                 <Head>
-                    
+
                 </Head>
                 <body>
                     <Main />
-                    <NextScript />
+                    <NextScript />                    
+                    <script src="/js/bootstrap.bundle.js"></script>
                 </body>
             </Html>
         )
