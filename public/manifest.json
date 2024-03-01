@@ -1,0 +1,30 @@
+{
+    "name": "Shekofa-land",
+    "short_name": "شکوفالند",
+    "description": "کنترل تردد،نرم افزار پارکینگ ، سلف غذاخوری ، نرم افزار مراجعین سازمان",
+    "background_color": "#a600ff",
+    "display": "standalone",
+    "theme_color": "#a600ff",
+    "icons": [
+        {
+            "src": "/icons/Footer1/Attendance.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icons/Footer1/Parking.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icons/Footer1/SelfService.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icons/Footer1/Visitor.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ]
+}
