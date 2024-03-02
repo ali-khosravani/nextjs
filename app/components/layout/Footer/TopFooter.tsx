@@ -13,8 +13,8 @@ const TopFooter = () => {
               <li className="pt-2"><Link href="/attendance">کنترل تردد</Link></li>
               <li className="pt-2"><Link href="/hardware">سخت افزار</Link></li>
               <li className="pt-2"><Link href="/software">نرم افزار</Link></li>
-              <li className="pt-2"><a href="/">بازرسی</a></li>
-              <li className="pt-2"><a href="/">برد کنترل</a></li>
+              <li className="pt-2"><Link href="/">بازرسی</Link></li>
+              <li className="pt-2"><Link href="/">برد کنترل</Link></li>
             </ul>
           </div>
 
@@ -27,7 +27,6 @@ const TopFooter = () => {
               <li className="pt-2"><Link href="/learn">آموزش</Link></li>
               <li className="pt-2"><Link href="/contract">قرارداد</Link></li>
               <li className="pt-2"><Link href="/guarantee">خدمات ضمانت کالا</Link></li>
-              <li className="pt-2"><a href="/"> </a></li>
             </ul>
           </div>
         </div>
