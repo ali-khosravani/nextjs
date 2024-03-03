@@ -9,7 +9,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
         <Head>
-            <meta name='viewport' content='width=device-width, initial-scale=1'/>            
+            <meta name='viewport' content='width=device-width, initial-scale=1'/> 
+            <meta name='keywords' content='Access Control , حضور و غیاب,Attendance,کنترل تردد' />           
         </Head>
             <Component {...pageProps} />
         </>

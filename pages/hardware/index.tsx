@@ -7,6 +7,7 @@ export default function Hardware() {
     <>
     <Head>
       <title>سخت افزار</title>
+      <meta name='keywords' content='Access Control , حضور و غیاب,Attendance,کنترل تردد' />
     </Head>
       <CommingSoonImage />
     </>
