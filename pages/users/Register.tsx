@@ -13,16 +13,16 @@ export default function Login() {
         </title>
       </Head>
       <div className='d-flex justify-content-center vh-100 align-items-center'>
-        <div className='bg-light border rounded d-none d-md-flex align-items-center' style={{ height: '700px', width: '300px' }}>
-          <div className='my-3'>
+        <div className='bg-light border rounded d-none d-md-flex align-items-center justify-content-center' style={{ height: '700px', width: '400px' }}>
+          <div className='m-0'>
             <Image src={Logo} height={200} width={400} priority alt='Logo' />
-            <h1>شکوفالند</h1>
+            <h1 className='m-0 fw-bold'>شکوفالند</h1>
           </div>
         </div>
         <div className='bg-light border rounded' style={{ height: '700px', width: '500px' }}>
           <form action="">
             <div className='w-100 h-25 text-center my-5'>
-              <h1>شکوفالند</h1>
+              <h1 className='fw-bold'>شکوفالند</h1>
             </div>
             <div className='w-100 justify-content-center my-3 px-5'>
               <div className='h4 text-start my-1'>ایمیل</div>
