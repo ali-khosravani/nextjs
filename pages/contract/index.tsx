@@ -3,7 +3,8 @@ import Head from 'next/head'
 import CommingSoonImage from '@/com/ui/CommingSoon/CommingSoon'
 
 
-const Contract = () => {
+export default function Contract(props:any) {
+    console.log(props)
     return (
         <>
             <Head>
@@ -15,4 +16,4 @@ const Contract = () => {
         </>
     )
 }
-export default Contract
+ 
