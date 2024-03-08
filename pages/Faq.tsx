@@ -18,13 +18,21 @@ export default function Faq() {
         </div>
         <div className='py-3 d-flex justify-content-center align-items-center bg-light'>
           <div className='container'>
-            <h3 className='m-0 p-0'>دسته بندی سوالات</h3>
+            <h3 className='m-0 p-0 fw-bold'>دسته بندی سوالات</h3>
             <div className="my-3">
               <div className="row d-flex justify-content-around">
-                <div className="col-lg-3">ثبت نام</div>
-                <div className="col-lg-3">ثبت سفارش</div>
-                <div className="col-lg-3">پشتیبانی محصولات</div>
-                <div className="col-lg-3">درخواست مشاوره</div>
+                <div className="col-lg-3">
+                  <h5 className='text-black'>ثبت نام</h5>
+                </div>
+                <div className="col-lg-3">
+                 <h5 className='text-black'> ثبت سفارش</h5>
+                  </div>
+                <div className="col-lg-3">
+                 <h5 className='text-black'> پشتیبانی محصولات</h5>
+                  </div>
+                <div className="col-lg-3">
+                  <h5 className='text-black'>درخواست مشاوره</h5>
+                  </div>
               </div>
             </div>
           </div>
