@@ -20,7 +20,7 @@ export default function Login() {
           </div>
         </div>
         <div className='bg-light border rounded' style={{ height: '700px', width: '500px' }}>
-          <form action="">
+          <form action="" id='RegisterForm'>
             <div className='w-100 h-25 text-center my-5'>
               <h1 className='fw-bold'>شکوفالند</h1>
             </div>

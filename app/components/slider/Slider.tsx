@@ -1,13 +1,11 @@
 "use client"
-import React from 'react'
-import { useState } from "react";
+import React,{ useState } from 'react'
 import  Slide  from './json';
 import { Carousel } from "react-bootstrap";
-import MoreButton from '../ui/Buttons/MoreButton';
+import MoreButton from '@/com/ui/Buttons/MoreButton';
 import Image from 'next/image';
 
 export const Slider = () => {
-
     const [index, setIndex] = useState(0);
     const handleSelect = (selectedIndex: any) => {
         setIndex(selectedIndex);
