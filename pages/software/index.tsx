@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import CommingSoonImage from '@/com/ui/CommingSoon/CommingSoon'
+import CommingSoonPage from '@/com/ui/CommingSoon/CommingSoon'
 import React from 'react'
 export default function Software() {
   return (
@@ -10,7 +10,7 @@ export default function Software() {
       </title>
       <meta name='keywords' content='Access Control , حضور و غیاب,Attendance,کنترل تردد' />
     </Head>
-      <CommingSoonImage />
+      <CommingSoonPage />
     </>
   )
 }

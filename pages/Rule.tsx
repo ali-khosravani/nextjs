@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import CommingSoonImage from '@/com/ui/CommingSoon/CommingSoon'
+import CommingSoonPage from '@/com/ui/CommingSoon/CommingSoon'
 import React from 'react'
 export default function Rule() {
   return (
@@ -9,7 +9,7 @@ export default function Rule() {
         قوانین سایت
       </title>
     </Head>
-      <CommingSoonImage />
+      <CommingSoonPage />
     </>
   )
 }

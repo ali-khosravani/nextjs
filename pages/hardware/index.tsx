@@ -1,5 +1,5 @@
 
-import CommingSoonImage from '@/com/ui/CommingSoon/CommingSoon'
+import CommingSoonPage from '@/com/ui/CommingSoon/CommingSoon'
 import Head from 'next/head'
 import React from 'react'
 export default function Hardware() {
@@ -9,7 +9,7 @@ export default function Hardware() {
       <title>سخت افزار</title>
       <meta name='keywords' content='Access Control , حضور و غیاب,Attendance,کنترل تردد' />
     </Head>
-      <CommingSoonImage />
+      <CommingSoonPage />
     </>
   )
 }

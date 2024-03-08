@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import CommingSoonImage from '@/com/ui/CommingSoon/CommingSoon'
+import CommingSoonPage from '@/com/ui/CommingSoon/CommingSoon'
 import React from 'react'
 export default function Privacy() {
   return (
@@ -9,7 +9,7 @@ export default function Privacy() {
         حریم خصوصی
       </title>
     </Head>
-      <CommingSoonImage />
+      <CommingSoonPage />
     </>
   )
 }

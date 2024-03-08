@@ -5,7 +5,7 @@ import './Styled.css'
 const LinkBackToHome = () => {
   return (
     <>
-    <p className='m-0'><Link href="/">Go back to home</Link></p>
+      <p className='m-0'><Link href="/">Go back to home</Link></p>
     </>
   )
 }

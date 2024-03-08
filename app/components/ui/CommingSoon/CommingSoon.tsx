@@ -5,15 +5,17 @@ import 'bootstrap/dist/css/bootstrap.rtl.css'
 import LinkBackToHome from '@/com/ui/BackToHome/Link'
 import ComingSoon from '@/public/images/coming-soon.png'
 
-const CommingSoonImage = () => {
+const CommingSoonPage = () => {
   return (
-    <div className='vh-100 d-flex justify-content-center align-items-center'>
-      <div className=''>
-        <Image src={ComingSoon} alt='' className='img-fluid' />
-        <LinkBackToHome />
+    <>
+      <div className='vh-100 d-flex justify-content-center align-items-center'>
+        <div className=''>
+          <Image src={ComingSoon} alt='' className='img-fluid' />
+          <LinkBackToHome />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
-export default CommingSoonImage
+export default CommingSoonPage

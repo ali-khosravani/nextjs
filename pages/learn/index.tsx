@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import CommingSoonImage from '@/com/ui/CommingSoon/CommingSoon'
+import CommingSoonPage from '@/com/ui/CommingSoon/CommingSoon'
 import React from 'react'
 export default function Learn() {
   return (
@@ -9,7 +9,7 @@ export default function Learn() {
         آموزش
       </title>
     </Head>
-      <CommingSoonImage />
+      <CommingSoonPage />
     </>
   )
 }
