@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import MoreButton from '@/com/ui/Buttons/MoreButton'
+import LinkBackToHome from '@/com/ui/BackToHome/Link'
 
 export default function Blog() {
   return (
@@ -10,7 +11,7 @@ export default function Blog() {
       </Head>
       <div className='vh-100'>
         <div className='w-100 h-25 d-flex justify-content-center align-items-center bg-dark'>
-          <div className=''>
+          <div className='p-0'>
             <h1 className='text-white m-0 p-0'>شکوفالند</h1>
             <p className='m-2 p-0 text-white'>راهکاری جامع برای کنترل دسترسی در سازمان شما</p>
           </div>
@@ -41,6 +42,9 @@ export default function Blog() {
               </div>
             </div>
           </div>
+        </div>
+        <div className='container my-5'>
+          <LinkBackToHome/>
         </div>
       </div>
     </>
