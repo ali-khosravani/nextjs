@@ -58,8 +58,9 @@ const TopFooter = () => {
 
         <div className='col-lg-4 col-12'>
           <div className='p-2 m-1'>
-            <p>شماره پشتیبانی:09127622665</p>
-            <p>پشتیبانی ساعات اداری از 8:30 الی 17 عصر</p>
+            <p className='text-start'>شماره پشتیبانی:09127622665</p>
+            <p className='text-start'>پشتیبانی در ساعات اداری : <span className='text-black fw-bold'>8:30 الی 17 عصر</span></p>
+            
           </div>
           <div className='m-1 p-2'>
             <form action="">
