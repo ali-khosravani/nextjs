@@ -48,7 +48,7 @@ const TopFooter = () => {
           <div className='m-1 p-1'>
             <h4 className='fw-bold text-start'>با شکوفالند</h4>
             <ul className='text-start'>
-              <li className="pt-2"><Link href="/#">آخرین مقالات</Link></li>
+              <li className="pt-2"><Link href="/blog/posts">آخرین مقالات</Link></li>
               <li className="pt-2"><Link href="/#"></Link>پیگیری سفارشات</li>
               <li className="pt-2"><Link href="/#">گزارش خطا</Link></li>           
               <li className="pt-2"><Link href="/#">سفارشی سازی</Link></li>           
