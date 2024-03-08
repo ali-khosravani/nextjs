@@ -1,13 +1,12 @@
-import React from 'react'
-import Head from 'next/head'
-import Image from 'next/image'
+import React from 'react';
+import Head from 'next/head';
+import Image from 'next/image';
 
-import SupportImage from '@/public/images/Contract/support.jpg'
-import ContractSoftware from '@/public/images/Contract/support-technical-support.jpg'
-import ContractHardware from '@/public/images/Contract/shutterstock_378586735.jpg'
-import MoreButton from '@/com/ui/Buttons/MoreButton'
-import LinkBackToHome from '@/com/ui/BackToHome/Link'
-
+import SupportImage from '@/public/images/Contract/support.jpg';
+import ContractSoftware from '@/public/images/Contract/support-technical-support.jpg';
+import ContractHardware from '@/public/images/Contract/shutterstock_378586735.jpg';
+import MoreButton from '@/com/ui/Buttons/MoreButton';
+import LinkBackToHome from '@/com/ui/BackToHome/Link';
 
 export default function Contract(props: any) {
     console.log(props)
@@ -37,7 +36,6 @@ export default function Contract(props: any) {
                                 </div>
                             </div>
                         </div>
-
                         <div className="col-12 col-lg-6">
                             <div className="card my-3">
                                 <Image src={ContractHardware} className="card-img-top" alt="..." priority height={400} />
@@ -48,7 +46,6 @@ export default function Contract(props: any) {
                                 </div>
                             </div>
                         </div>
-
                         <div className="col-12 col-lg-6">
                             <div className="card my-3">
                                 <Image src={SupportImage} className="card-img-top" alt="..." priority height={400} />
