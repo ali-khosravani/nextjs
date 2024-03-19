@@ -19,7 +19,7 @@ export const Slider = () => {
                         <Carousel.Caption className={'text-center text-black'}>
                             <h3 className='text-black'>{item.title}</h3>
                             <p className='text-black'>{item.body}</p>
-                            <MoreButton/>
+                            <MoreButton linkValue='/attendance' title='شروع کنید'/>
                         </Carousel.Caption>
                     </Carousel.Item>
                 ))}

@@ -21,7 +21,7 @@ export default function Blog() {
             <div className="card-body">
               <h3 className="card-title">مقالات</h3>
               <p className="card-text">دربافت آخرین مفالات را از اینجا می توانید ببینید</p>
-              <Link href={"/blog/posts"}><MoreButton /></Link>
+              <MoreButton linkValue='/blog/posts'/>
             </div>
           </div>
           <div className='text-center'>
@@ -29,7 +29,7 @@ export default function Blog() {
               <div className="card-body">
                 <h3 className="card-title">لیست کاتالوگ</h3>
                 <p className="card-text">لیست و کاتالوگ محصولات را از اینجا می توانید دریافت کنید</p>
-                <Link href={"#"}><MoreButton /></Link>
+                <MoreButton linkValue='/blog/posts'/>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function Blog() {
               <div className="card-body">
                 <h3 className="card-title">اخبار</h3>
                 <p className="card-text">دریافت آخرین اخبار متنوع از دنیای فن آوری در زمینه کنترل تردد را از اینجا دنبال کنید</p>
-                <Link href={"#"}><MoreButton /></Link>
+                <MoreButton linkValue='/blog/posts'/>
               </div>
             </div>
           </div>

@@ -16,28 +16,28 @@ const Footer1 = () => {
 
                     <h2 className="fw-normal SocialMedia-font pt-3">کنترل تردد</h2>
                     <p>راهکاری جامع برای کنترل تردد در سازمان شما</p>
-                    <MoreButton/>
+                    <MoreButton linkValue='/software' />
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <Image src={Visitor} alt='Home' width={96} height={96} className="m-3" />
 
                     <h2 className="fw-normal SocialMedia-font pt-3">مراجعین</h2>
                     <p>راهنمایی و هدایت مراجعه کنندگان به سازمان</p>
-                    <MoreButton/>
+                    <MoreButton linkValue='/software'/>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <Image src={Parking} alt='Home' width={96} height={96} className="m-3" />
 
                     <h2 className="fw-normal SocialMedia-font pt-3">پارکینگ</h2>
                     <p>نرم افزاری کامل و مرجع برای مدیریت پارکینگ</p>
-                    <MoreButton/>
+                    <MoreButton linkValue='/software'/>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <Image src={SelfService} alt='Home' width={94} height={94} className="m-3" />
 
                     <h2 className="fw-normal SocialMedia-font pt-3">سلف غذا خوری</h2>
                     <p>کاملتربن راهکار برای مدیریت سلف غذا خوری</p>
-                    <MoreButton/>
+                    <MoreButton linkValue='/software'/>
                 </div>
             </div>
        
