@@ -5,7 +5,7 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "شکوفالند",
+  title:"شکوفالند | صفحه نخست",
   description: "راهکاری جامع برای مدیریت پارکینگ",  
 };
 
