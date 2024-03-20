@@ -1,5 +1,5 @@
 import React from 'react'
-import './styled.css'
+import styles from './index.module.css'
 import Order from '../Order'
 
 const AccessControl = () => {
@@ -14,13 +14,13 @@ const AccessControl = () => {
                                     بهترین راهکار برای مدیریت کنترل تردد در سازمان و اداره شما
                                 </h4>
                             </div>
-                            <div className='ul-box py-3'>
+                            <div className={styles.ulBox}>
                                 <ul className='text-start'>
-                                    <li className='li-Network'><i className="bi bi-check-lg"></i>نرم افزار کنترل تردد</li>
-                                    <li className='li-Network'><i className="bi bi-check-lg"></i>دستگاه کنترل تردد</li>
-                                    <li className='li-Network'><i className="bi bi-check-lg"></i>انواع برد کنترل تردد</li>
-                                    <li className='li-Network'><i className="bi bi-check-lg"></i>لوازم جانبی کنترل تردد</li>
-                                    <li className='li-Network'><i className="bi bi-check-lg"></i>انواع reader</li>                                    
+                                    <li className={styles.liNetwork}><i className="bi bi-check-lg"></i>نرم افزار کنترل تردد</li>
+                                    <li className={styles.liNetwork}><i className="bi bi-check-lg"></i>دستگاه کنترل تردد</li>
+                                    <li className={styles.liNetwork}><i className="bi bi-check-lg"></i>انواع برد کنترل تردد</li>
+                                    <li className={styles.liNetwork}><i className="bi bi-check-lg"></i>لوازم جانبی کنترل تردد</li>
+                                    <li className={styles.liNetwork}><i className="bi bi-check-lg"></i>انواع reader</li>                                    
                                 </ul>
                             </div>
                         </div>

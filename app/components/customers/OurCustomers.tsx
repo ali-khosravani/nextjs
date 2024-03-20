@@ -1,5 +1,4 @@
 import React from 'react'
-import './Styled.css'
 
 const OurCustomers = () => {
     return (

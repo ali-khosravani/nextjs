@@ -1,15 +1,15 @@
-.Access-box{
+.accessBox{
     padding: 0;    
 }
 
-.li-Network{
+.liNetwork{
     padding-bottom: 10px;
     margin-bottom: 10px;
     font-weight: bold;    
 }
-.ul-box{
+.ulBox{
     margin-top: 70px;
 }
-li i{
+.liNetwork li i{
     padding: 5px;
 }
