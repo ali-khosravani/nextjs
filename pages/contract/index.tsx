@@ -8,8 +8,7 @@ import ContractHardware from '@/public/images/Contract/shutterstock_378586735.jp
 import MoreButton from '@/com/ui/Buttons/MoreButton';
 import LinkBackToHome from '@/com/ui/BackToHome/Link';
 
-export default function Contract(props: any) {
-    console.log(props)
+export default function Contract() {
     return (
         <>
             <Head>
@@ -26,7 +25,7 @@ export default function Contract(props: any) {
                 </div>
                 <div className='container'>
                     <div className="row">
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-4">
                             <div className="card my-3">
                                 <Image src={ContractSoftware} className="card-img-top" alt="..." priority height={400} />
                                 <div className="card-body">
@@ -36,7 +35,7 @@ export default function Contract(props: any) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-4">
                             <div className="card my-3">
                                 <Image src={ContractHardware} className="card-img-top" alt="..." priority height={400} />
                                 <div className="card-body">
@@ -46,7 +45,7 @@ export default function Contract(props: any) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-4">
                             <div className="card my-3">
                                 <Image src={SupportImage} className="card-img-top" alt="..." priority height={400} />
                                 <div className="card-body">
