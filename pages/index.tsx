@@ -7,8 +7,9 @@ import AccessControl from "@/com/products/AccessControl";
 import Gate from '@/com/products/GateAccessControl';
 import Inspection from '@/com/products/Inspection';
 import RollCall from '@/com/products/RollCall';
-import Network from "../app/components/products/Network";
-import Camera from "../app/components/products/Camera";
+import Network from "@/com/products/Network";
+import Camera from "@/com/products/Camera";
+import Brands from "@/com/brands";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <Slider />
       <AccessControl />
+      <Brands />
       <RollCall />
       <Gate />
       <Inspection />
