@@ -7,8 +7,8 @@ import AccessControl from "@/com/products/AccessControl";
 import Gate from '@/com/products/GateAccessControl';
 import Inspection from '@/com/products/Inspection';
 import RollCall from '@/com/products/RollCall';
-import Network from "./components/products/Network";
-import Camera from "./components/products/Camera";
+import Network from "../app/components/products/Network";
+import Camera from "../app/components/products/Camera";
 
 export default function Home() {
   return (

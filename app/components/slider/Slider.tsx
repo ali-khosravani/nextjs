@@ -17,8 +17,8 @@ export const Slider = () => {
                     <Carousel.Item key={item.id} className={'h-100 w-100'} interval={10000}>
                         <Image src={item.imageUrl} alt="New Slide" className='img-fluid' height={850} width={1200}/>
                         <Carousel.Caption className={'text-center text-black'}>
-                            <h3 className='text-black'>{item.title}</h3>
-                            <p className='text-black'>{item.body}</p>
+                            <h3 className='text-black text-center'>{item.title}</h3>
+                            <p className='text-black text-center'>{item.body}</p>
                             <MoreButton linkValue='/attendance' title='شروع کنید'/>
                         </Carousel.Caption>
                     </Carousel.Item>

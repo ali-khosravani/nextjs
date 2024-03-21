@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa" dir="rtl">     
+    <html>     
       <body>{children}</body>
       <Script src="/js/bootstrap.bundle.js" />
     </html>
