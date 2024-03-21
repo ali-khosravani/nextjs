@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import './Styled.css'
+import LinkBackToHome from '@/com/ui/BackToHome/Link'
 
 export default function Attendance() {
   return (
@@ -151,6 +152,7 @@ export default function Attendance() {
             </li>
           </ul>
         </div>
+        <LinkBackToHome/>
       </div>
     </>
   )
