@@ -12,22 +12,22 @@ function Brands() {
         <div className="row">
           <div className="col-12 col-md-6 col-xl-3">
             <div className="m-3">
-              <Image src={ZK} alt="ZK" priority width={280} height={150}/>
+              <Image src={ZK} alt="ZK"  width={280} height={150} placeholder='blur' blurDataURL='ZK'/>
             </div>
           </div>
           <div className="col-12 col-md-6 col-xl-3">
             <div className="m-3">
-              <Image src={Suprema} alt="Suprema" priority width={280} height={150}/>
+              <Image src={Suprema} alt="Suprema"  width={280} height={150} placeholder='blur' blurDataURL='Suprema'/>
             </div>
           </div>
           <div className="col-12 col-md-6 col-xl-3">
             <div className="m-3">
-              <Image src={PW} alt="Processing World" priority width={280} height={150}/>
+              <Image src={PW} alt="Processing World" width={280} height={150} placeholder='blur' blurDataURL='PW'/>
             </div>
           </div>
           <div className="col-12 col-md-6 col-xl-3">
             <div className="m-3">
-              <Image src={Virdi} alt="Virdi" priority width={280} height={150}/>
+              <Image src={Virdi} alt="Virdi"  width={280} height={150} placeholder='blur' blurDataURL='Virdi'/>
             </div>
           </div>
         </div>

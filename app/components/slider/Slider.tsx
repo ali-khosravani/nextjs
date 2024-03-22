@@ -15,7 +15,8 @@ export const Slider = () => {
             <Carousel activeIndex={index} onSelect={handleSelect} variant='dark'>
                 {Slide.items.map((item) => (
                     <Carousel.Item key={item.id} className={'h-100 w-100'} interval={10000}>
-                        <Image src={item.imageUrl} alt="New Slide" className='img-fluid' height={850} width={1200}/>
+                        
+                        <Image src={item.imageUrl} height={0} width={0} alt="New Slide" className='img-fluid' style={{ width: '60%', height: 'auto' }} placeholder='blur' blurDataURL={item.imageUrl}/>
                         <Carousel.Caption className={'text-center text-black'}>
                             <h3 className='text-black text-center'>{item.title}</h3>
                             <p className='text-black text-center'>{item.body}</p>

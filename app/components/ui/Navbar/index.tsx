@@ -10,7 +10,7 @@ export const NavbarHeader = () => {
 
     <nav className="navbar navbar-expand-md bg-light justify-content-between border-bottom border-3">
       <div className="navbar-brand mx-3">
-        <Navbar.Brand href="/About"><Image src={Logo} height={40} width={50} alt='Logo' priority /></Navbar.Brand>
+        <Navbar.Brand href="/About"><Image src={Logo} height={40} width={50} alt='شکوفالند' placeholder='blur' blurDataURL='Logo' /></Navbar.Brand>
       </div>
       <button className="navbar-toggler toggle mx-3" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarToggleCollapse" aria-controls="navbarcollapse"
