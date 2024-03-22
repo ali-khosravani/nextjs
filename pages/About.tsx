@@ -26,8 +26,8 @@ export default function About() {
               <p className='text-start'>عمده فعالیت شرکت در زمینه تجهیزات کنترل دسترسی می باشد</p>
               <p className='text-start'>نرم افزار های مدیریت پارکینگ و مدیریت سلف غذاخوری و مدیریت مراجعین و مهمان ها به سازمان شما از مهمترین فعالیت های شکوفالند می باشد.</p>
             </div>
-            <div className='col-12 col-lg-6 d-none d-sm-flex'>
-              <Image src={AboutUs} alt='About US' priority />
+            <div className='col-12 col-lg-6 d-sm-flex'>
+              <Image src={AboutUs} alt='About US' height={0} width={0} layout='responsive' placeholder='blur' blurDataURL='' />
             </div>
           </div>
         </div>

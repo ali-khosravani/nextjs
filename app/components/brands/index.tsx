@@ -12,22 +12,22 @@ function Brands() {
         <div className="row">
           <div className="col-12 col-md-6 col-xl-3">
             <div className="m-3">
-              <Image src={ZK} alt="ZK"  width={280} height={150} placeholder='blur' blurDataURL='ZK'/>
+              <Image src={ZK} alt="ZK" width={280} height={150} placeholder='blur' blurDataURL='@/public/images/Brands/zk.png'/>
             </div>
           </div>
           <div className="col-12 col-md-6 col-xl-3">
             <div className="m-3">
-              <Image src={Suprema} alt="Suprema"  width={280} height={150} placeholder='blur' blurDataURL='Suprema'/>
+              <Image src={Suprema} alt="Suprema" width={280} height={150} placeholder='blur' blurDataURL='@/public/images/Brands/suprema.png'/>
             </div>
           </div>
           <div className="col-12 col-md-6 col-xl-3">
             <div className="m-3">
-              <Image src={PW} alt="Processing World" width={280} height={150} placeholder='blur' blurDataURL='PW'/>
+              <Image src={PW} alt="Processing World" width={280} height={150} placeholder='blur' blurDataURL='@/public/images/Brands/virdi.png'/>
             </div>
           </div>
           <div className="col-12 col-md-6 col-xl-3">
             <div className="m-3">
-              <Image src={Virdi} alt="Virdi"  width={280} height={150} placeholder='blur' blurDataURL='Virdi'/>
+              <Image src={Virdi} alt="Virdi" width={280} height={150} placeholder='blur' blurDataURL='@/public/images/Brands/virdi.png'/>
             </div>
           </div>
         </div>

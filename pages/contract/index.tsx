@@ -27,7 +27,15 @@ export default function Contract() {
                     <div className="row">
                         <div className="col-12 col-lg-4">
                             <div className="card my-3">
-                                <Image src={ContractSoftware} className="card-img-top" alt="..." priority height={400} />
+                                <Image
+                                    src={ContractSoftware}
+                                    className="img-thumbnail"
+                                    alt="قرارداد نرم افزار"
+                                    width={0}
+                                    height={0}
+                                    placeholder='blur'
+                                    blurDataURL='@/public/images/Contract/support-technical-support.jpg'
+                                />
                                 <div className="card-body">
                                     <h5 className="card-title">انواع قرارداد فروش کالا و تجهیزات سخت افزاری</h5>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -37,17 +45,34 @@ export default function Contract() {
                         </div>
                         <div className="col-12 col-lg-4">
                             <div className="card my-3">
-                                <Image src={ContractHardware} className="card-img-top" alt="..." priority height={400} />
+                                <Image
+                                    src={ContractHardware}
+                                    className="img-thumbnail"
+                                    alt="قرارداد پششتیبانی سخت افزاری"
+                                    width={0}
+                                    height={0}
+                                    placeholder='blur'
+                                    blurDataURL='@/public/images/Contract/shutterstock_378586735.jpg'
+                                />
                                 <div className="card-body">
                                     <h5 className="card-title">انواع قرارداد فروش نرم افزار</h5>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <MoreButton />
+
                                 </div>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4">
                             <div className="card my-3">
-                                <Image src={SupportImage} className="card-img-top" alt="..." priority height={400} />
+                                <Image
+                                    src={SupportImage}
+                                    className="img-thumbnail"
+                                    alt="..."
+                                    width={0}
+                                    height={0}
+                                    placeholder='blur'
+                                    blurDataURL='@/public/images/Contract/support.jpg'
+                                />
                                 <div className="card-body">
                                     <h5 className="card-title">انواع قرارداد پشتیبانی نرم افزار</h5>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

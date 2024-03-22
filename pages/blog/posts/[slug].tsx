@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import CommingSoonPage from '@/com/ui/CommingSoon/CommingSoon'
+import CommingSoonPage from '@/com/ui/ComingSoon/ComingSoon'
 function Post() {
   return (
     <>
