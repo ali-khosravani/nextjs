@@ -29,15 +29,15 @@ export default function Contract() {
                             <div className="card my-3">
                                 <Image
                                     src={ContractSoftware}
-                                    className="img-thumbnail"
+                                    style={{width:'100%'}}
                                     alt="قرارداد نرم افزار"
                                     width={0}
-                                    height={0}
+                                    height={300}
                                     placeholder='blur'
                                     blurDataURL='@/public/images/Contract/support-technical-support.jpg'
                                 />
                                 <div className="card-body">
-                                    <h5 className="card-title">انواع قرارداد فروش کالا و تجهیزات سخت افزاری</h5>
+                                    <h5 className="card-title">انواع قرارداد فروش سخت افزار</h5>
                                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <MoreButton />
                                 </div>
@@ -47,10 +47,10 @@ export default function Contract() {
                             <div className="card my-3">
                                 <Image
                                     src={ContractHardware}
-                                    className="img-thumbnail"
+                                    style={{width:'100%'}}
                                     alt="قرارداد پششتیبانی سخت افزاری"
                                     width={0}
-                                    height={0}
+                                    height={300}
                                     placeholder='blur'
                                     blurDataURL='@/public/images/Contract/shutterstock_378586735.jpg'
                                 />
@@ -66,10 +66,10 @@ export default function Contract() {
                             <div className="card my-3">
                                 <Image
                                     src={SupportImage}
-                                    className="img-thumbnail"
+                                    style={{width:'100%'}}
                                     alt="..."
                                     width={0}
-                                    height={0}
+                                    height={300}
                                     placeholder='blur'
                                     blurDataURL='@/public/images/Contract/support.jpg'
                                 />
