@@ -1,4 +1,3 @@
-import React from 'react'
 import './styled.css'
 import Order from '../Order'
 
@@ -14,9 +13,9 @@ const RollCall = () => {
               </h2>
               <p className='text-start py-3'>آیا هنوز هم از سیستم دستی برای ردیابی حضور و غیاب کارکنان شرکت خود استفاده می‌کنید؟ در این صورت، زمان آن فرا رسیده است که نرم افزار ردیابی حضور و غیاب را جایگزین آن کرده تا بتوانید به راحتی حضور و غیاب کارکنانتان را ردیابی کنید و زمان بیشتری را به سایر جنبه های کسب‌وکار خود اختصاص دهید.</p>
             </div>
-            <div className='ul-box py-3'>
-              <h5 className='text-start fw-bold py-3'>برخی از قابلیت ها و امکانات نرم افزار</h5>
-              <ul className='text-start'>
+            <div className='my-1'>
+              <h5 className='text-start fw-bold'>برخی از قابلیت ها و امکانات نرم افزار</h5>
+              <ul className='text-start my-1'>
                 <li className='li-Network'><i className="bi bi-check-lg"></i> اضافه کاری اول و آخر وقت امکان جدا سازی روز کاری و غیر کاری زمان قابل اغماض و شب کاری</li>
                 <li className='li-Network'><i className="bi bi-check-lg"></i>امکان تعریف گروههای کاری با دوره تناوب تا ۳۱ روز با ترکیب شیفتهای مختلف</li>
                 <li className='li-Network'><i className="bi bi-check-lg"></i>تعیین حداقل و حد اکثر اضافه کار اول وقت آخر وقت</li>
