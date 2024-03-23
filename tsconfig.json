@@ -33,7 +33,7 @@
         "app/components/*"
       ],
       "@/styles/*": [
-        "app/styles/*"
+        "styles/*"
       ]
     }
   },

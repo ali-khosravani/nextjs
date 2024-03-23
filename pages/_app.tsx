@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.rtl.css'
 import "bootstrap-icons/font/bootstrap-icons.css"
-import 'app/styles/globals.css';
+import '@/styles/globals.css'
 import Head from 'next/head';
 
 import { AppProps } from 'next/app';
