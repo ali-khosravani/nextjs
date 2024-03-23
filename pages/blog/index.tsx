@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import MoreButton from '@/com/ui/Buttons/MoreButton'
 import LinkBackToHome from '@/com/ui/BackToHome/Link'
 

@@ -1,6 +1,5 @@
-import Head from 'next/head'
-import CommingSoonPage from '@/com/ui/ComingSoon/ComingSoon'
-import React from 'react'
+import Head from 'next/head';
+import CommingSoonPage from '@/com/ui/ComingSoon/ComingSoon';
 export default function Support() {
   return (
     <>
