@@ -11,14 +11,14 @@ const Inspection = () => {
                 انواع بازرسی
               </h3>
             </div>
-            <div className='ul-box py-3'>
+            <div className='py-1'>
               <ul className='text-start'>
-                <li className='li-Network'> <i className="bi bi-check-lg"></i>بازرسی ماشین</li>
-                <li className='li-Network'> <i className="bi bi-check-lg"></i>بازرسی افراد</li>
-                <li className='li-Network'> <i className="bi bi-check-lg"></i>راکت فلزیاب</li>
-                <li className='li-Network'> <i className="bi bi-check-lg"></i>راکت موبایل یاب</li>
-                <li className='li-Network'> <i className="bi bi-check-lg"></i>دستگاه X-Ray</li>
-                <li className='li-Network'> <i className="bi bi-check-lg"></i>اسکتر کف خودرو</li>
+                <li className='fw-bold my-2'> <i className="bi bi-check-lg p-2"></i>بازرسی ماشین</li>
+                <li className='fw-bold my-2'> <i className="bi bi-check-lg p-2"></i>بازرسی افراد</li>
+                <li className='fw-bold my-2'> <i className="bi bi-check-lg p-2"></i>راکت فلزیاب</li>
+                <li className='fw-bold my-2'> <i className="bi bi-check-lg p-2"></i>راکت موبایل یاب</li>
+                <li className='fw-bold my-2'> <i className="bi bi-check-lg p-2"></i>دستگاه X-Ray</li>
+                <li className='fw-bold my-2'> <i className="bi bi-check-lg p-2"></i>اسکتر کف خودرو</li>
               </ul>
             </div>
            

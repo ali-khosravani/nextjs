@@ -14,15 +14,15 @@ const Camera = () => {
             </div>
             <div >
               <ul className='text-start'>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>انواع دوربین پلاک خوان</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>دوربین های ضدآب</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>دوربین تحت شبکه</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>دوربین دید در شب</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>دوربین اسپید دام</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>وب کم</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>اتصالات دوربین مدار بسته</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>سیستم و DVR</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>انواع هارد</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>انواع دوربین پلاک خوان</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>دوربین های ضدآب</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>دوربین تحت شبکه</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>دوربین دید در شب</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>دوربین اسپید دام</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>وب کم</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>اتصالات دوربین مدار بسته</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>سیستم و DVR</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>انواع هارد</li>
               </ul>
             </div>
           </div>
