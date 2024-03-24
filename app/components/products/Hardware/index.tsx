@@ -1,5 +1,3 @@
-import React from 'react'
-import './styled.css'
 import Order from '../Order'
 
 const Hardware = () => {

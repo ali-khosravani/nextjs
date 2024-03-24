@@ -1,5 +1,3 @@
-import React from 'react'
-import './styled.css'
 import Order from '../Order'
 const Gate = () => {
   return (
@@ -12,13 +10,13 @@ const Gate = () => {
                 انواع گیت های کنترل تردد
               </h1>
             </div>
-            <div className='ul-box py-3'>
+            <div className='py-1'>
               <ul className='text-start'>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>راهبند</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>گیت مترویی</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>گیت تردد میله ای</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>گیت کنترل تمام قد</li>
-                <li className='li-Network'><i className="bi bi-check-lg"></i>گیت بار</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>راهبند</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>گیت مترویی</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>گیت تردد میله ای</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>گیت کنترل تمام قد</li>
+                <li className='my-2 fw-bold'><i className="bi bi-check-lg p-2"></i>گیت بار</li>
               </ul>
             </div>
             <Order/>
@@ -28,5 +26,4 @@ const Gate = () => {
     </>
   )
 }
-
 export default Gate

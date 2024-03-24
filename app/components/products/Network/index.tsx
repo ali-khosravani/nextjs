@@ -1,5 +1,3 @@
-import React from 'react'
-import './styled.css'
 import Order from '../Order'
 import Image from 'next/image'
 import NetworkImage from '@/public/images/Product/ProductNetworkComponent.webp'

@@ -1,6 +1,4 @@
-import React from 'react'
-import './styled.css'
-
+import './styled.css';
 const Order = () => {
   return (
     <>

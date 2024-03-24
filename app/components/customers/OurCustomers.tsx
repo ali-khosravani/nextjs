@@ -1,5 +1,3 @@
-import React from 'react'
-
 const OurCustomers = () => {
     return (
         <>
@@ -19,5 +17,4 @@ const OurCustomers = () => {
         </>
     )
 }
-
 export default OurCustomers
