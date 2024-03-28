@@ -18,7 +18,7 @@ export default function Guarantee() {
           <div className="row">
             <div className="col-12">
               <h1>
-                خدمات ضمانت محصولات
+                گزارش خطا و ارائه بهبود دهنده نرم افزار
               </h1>
             </div>
           </div>
