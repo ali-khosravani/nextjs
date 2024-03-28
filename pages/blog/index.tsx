@@ -19,7 +19,7 @@ export default function Blog() {
           <div className="card my-3">
             <div className="card-body">
               <h3 className="card-title">مقالات</h3>
-              <p className="card-text">دربافت آخرین مفالات را از اینجا می توانید ببینید</p>
+              <p className="card-text">دربافت آخرین مقالات را از اینجا می توانید ببینید</p>
               <MoreButton linkValue='/blog/posts'/>
             </div>
           </div>
